@@ -78,16 +78,16 @@
 
 
 
-// // Області видимості, присвоєння за посиланням та значенням
+//Області видимості, присвоєння за посиланням та значенням
 
-// // // Example 1
-// // let someValue = 4;
+// Example 1
+// let someValue = 8;
 
-// // if (true) {
-// //     someValue = 11;
-// // }
+// if (true) {
+//     someValue = 13;
+// }
 
-// // console.log(someValue);
+// console.log(someValue);
 
 
 
@@ -102,13 +102,13 @@
 
 
 // // // Example 2
-// // let someValue = 4;
+// let someValue = 4;
 
-// // if (true) {
-// //     let someValue = 11;
-// // }
+// if (true) {
+//     let someValue = 11;
+// }
 
-// // console.log(someValue);
+// console.log(someValue);
 
 
 
