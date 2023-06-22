@@ -1,372 +1,373 @@
-/***** Оголошення змінних *****/
+// /***** Оголошення змінних *****/
 
-// let value;
-// value = 15;
-// value = 20;
+// // let value;
+// // value = 15;
+// // value = 20;
 
-// console.log(value);
-
-
-
-/***** Примітивні типи даних ****/
-
-// Number
-
-// let value = 10.45;
-// console.log(value);
-
-// console.log(5 === 5);
-// Особливий підтип NaN
-// console.log(NaN === NaN);
-// console.log(Number('22.5aa'));
-// console.log(undefined + 1);
-// console.log(null + 1); // 0 + 1
-// console.log(false + 1); // 0
-// console.log(true + 1); // 1 + 1
+// // console.log(value);
 
 
-// String
 
-// Типи рядків '' "" ``
+// /***** Примітивні типи даних ****/
 
-// console.log("I'm");
+// // Number
 
-// console.log('Total 25 + 15');
-// const total = 25 + 15;
-// console.log(`Total ${total}`);
+// // let value = 10.45;
+// // console.log(value);
 
-// Boolean (true, false)
-// true  => 1
-// false => 0
-
-
-// undefined
-
-// null
-
-// перевірка типу даних з яким працюємо метод typeof
-// const value = '10';
-// console.log(typeof value);
-// console.log(typeof value === 'string');
+// // console.log(5 === 5);
+// // Особливий підтип NaN
+// // console.log(NaN === NaN);
+// // console.log(Number('22.5aa'));
+// // console.log(undefined + 1);
+// // console.log(null + 1); // 0 + 1
+// // console.log(false + 1); // 0
+// // console.log(true + 1); // 1 + 1
 
 
-/***** Комунікація з користувачем та можливість відображення якогось результату *****/
+// // String
 
-// console.log('result', 10 + 15);
-// console.log('result', 10 + 15);
-// console.log('result', 10 + 15);
-// alert('Привіт вчи JS')
+// // Типи рядків '' "" ``
 
-// const message = prompt("Введіть і'мя")
-// console.log(message);
+// // console.log("I'm");
 
-// const result = confirm('Будеш вчити JS ?');
-// console.log(result);
+// // console.log('Total 25 + 15');
+// // const total = 25 + 15;
+// // console.log(`Total ${total}`);
 
-
-/***** Основні оператори *****/
-
-// >
-// console.log(25 > 21);
-
-// <
-// console.log(25 < 24);
-// ==
-
-// console.log('false' == 0);
-// console.log(false == 0);
-
-// ===
-
-// console.log(Number('25') === 25);
-
-// <=
-// console.log(24 <= 25);
-// console.log(25 <= 25);
-// >=
-
-// console.log(26 >= 20);
-// console.log(26 >= 26);
-
-// !=
-// console.log('1' != 1);
-
-// !==
-// console.log('1' !== 1);
-
-// Приклади роботи
-
-// console.log(1 == true);
-
-// console.log(1 === true);
-
-// console.log('0' == false); 
-
-// console.log('0' === false);
-
-// console.log('Papaya' < 'papaya'); // (ноут код)
-
-// console.log('a' < 'aAbBc');
-// console.log('Papaya' === 'papaya');
+// // Boolean (true, false)
+// // true  => 1
+// // false => 0
 
 
-/***** Значення які завжди будуть конвертовані до false (Обов'язково!!!) *****/
-
-//  0 (число нуль)
-// console.log(Boolean(0));
-// // "" (порожній рядок)
-// console.log(Boolean(''));
-// // NaN
-// console.log(Boolean(NaN));
 // // undefined
-// console.log(Boolean(undefined));
+
 // // null
-// console.log(Boolean(null));
-// // false
-// console.log(Boolean(false));
 
-/***** Логічні оператори *****/
-// const sum = 10
-// console.log(0 < sum  && sum < 20);
-// !
-// console.log(10 !== 10);
-// console.log(Boolean(''));
-// console.log(!'');
+// // перевірка типу даних з яким працюємо метод typeof
+// // const value = '10';
+// // console.log(typeof value);
+// // console.log(typeof value === 'string');
 
-// ||
 
-// console.log(2 || 0 || 1);
+// /***** Комунікація з користувачем та можливість відображення якогось результату *****/
 
-// ?? реагує лише на null undefined
+// // console.log('result', 10 + 15);
+// // console.log('result', 10 + 15);
+// // console.log('result', 10 + 15);
+// // alert('Привіт вчи JS')
 
-// console.log(0 ?? 1);
-// console.log(false ?? 0);
-// console.log(null ?? 1);
-// console.log(undefined ?? 10);
+// // const message = prompt("Введіть і'мя")
+// // console.log(message);
 
-// let qty; //undefined
+// // const result = confirm('Будеш вчити JS ?');
+// // console.log(result);
 
-// console.log(qty ?? 'Такого товару не знайдено');
 
-// &&
- //console.log(false && 1); // false
-//console.log(NaN && 2); // nan
+// /***** Основні оператори *****/
 
- //console.log(1 && 5 && 23);// 23
- //console.log(1 && 0 && 23);// 0
+// // >
+// // console.log(25 > 21);
 
+// // <
+// // console.log(25 < 24);
+// // ==
 
- //console.log(1 || 0 && 23);//1
+// // console.log('false' == 0);
+// // console.log(false == 0);
 
-// Приклади роботи
+// // ===
 
- //console.log(true && 3);//3
+// // console.log(Number('25') === 25);
 
- //console.log(false && 3);// false
+// // <=
+// // console.log(24 <= 25);
+// // console.log(25 <= 25);
+// // >=
 
- //console.log(true && 4 && 'kiwi');// kiwi
+// // console.log(26 >= 20);
+// // console.log(26 >= 26);
 
- //console.log(true && 0 && 'kiwi');//0
+// // !=
+// // console.log('1' != 1);
 
-// console.log(true || 3);// true
+// // !==
+// // console.log('1' !== 1);
 
-//console.log( 3 ||true || 4);// 3
+// // Приклади роботи
 
- //console.log('' || false || 7);// 7
+// // console.log(1 == true);
 
- //console.log(null || 2 || undefined);// 2
+// // console.log(1 === true);
 
- //console.log('' ??  4);// ''
+// // console.log('0' == false); 
 
- //console.log(false ?? 7); //false
+// // console.log('0' === false);
 
- //console.log(null ?? 7);// 7
+// // console.log('Papaya' < 'papaya'); // (ноут код)
 
- //console.log(undefined ?? 7);//7
+// // console.log('a' < 'aAbBc');
+// // console.log('Papaya' === 'papaya');
 
 
-/***** Математичні оператори *****/
+// /***** Значення які завжди будуть конвертовані до false (Обов'язково!!!) *****/
 
-// const value = 10
-// +
-// const result = value + 15
-// -
-// const result = value - 5
-// *
-// const result = 10 + value * 5
-// /
+// //  0 (число нуль)
+// // console.log(Boolean(0));
+// // // "" (порожній рядок)
+// // console.log(Boolean(''));
+// // // NaN
+// // console.log(Boolean(NaN));
+// // // undefined
+// // console.log(Boolean(undefined));
+// // // null
+// // console.log(Boolean(null));
+// // // false
+// // console.log(Boolean(false));
 
-// %
-// const result = value % 2 !== 0
-// const result = !(value % 2) //=>  10 % 2 => !0 
-// console.log(result);
-// console.log(Boolean(0)) === console.log(!!0);
+// /***** Логічні оператори *****/
+// // const sum = 10
+// // console.log(0 < sum  && sum < 20);
+// // !
+// // console.log(10 !== 10);
+// // console.log(Boolean(''));
+// // console.log(!'');
 
-// false => HE HE 0
-/***** Комбіновані оператори *****/
+// // ||
 
-// +=
+// // console.log(2 || 0 || 1);
 
-// -=
+// // ?? реагує лише на null undefined
 
-// *=
+// // console.log(0 ?? 1);
+// // console.log(false ?? 0);
+// // console.log(null ?? 1);
+// // console.log(undefined ?? 10);
 
-// /=
+// // let qty; //undefined
 
+// // console.log(qty ?? 'Такого товару не знайдено');
 
+// // &&
+//  //console.log(false && 1); // false
+// //console.log(NaN && 2); // nan
 
-/***** Методи для роботки з числами (тип даних Number) *****/
+//  //console.log(1 && 5 && 23);// 23
+//  //console.log(1 && 0 && 23);// 0
 
-// const str = '25.7a32px';
-// Number.parseInt()
-// console.log(Number.parseInt(str)); // "разобрати"
-// Number.parseFloat()// "плавающий"
-// console.log(Number.parseFloat(str));
-// Number.isNaN()  та метод isNaN()
-// const num = Number(str) // NaN
-// console.log(Number.isNaN(num));
-// console.log(isNaN(num));
-// console.log('=====================================');
 
+//  //console.log(1 || 0 && 23);//1
 
+// // Приклади роботи
 
+//  //console.log(true && 3);//3
 
-// const str = '25.7a32px';
-// console.log(typeof str);
-// console.log(Number.isNaN(str));// NaN //String
-// console.log(isNaN(str)); //Number(str) => NaN
+//  //console.log(false && 3);// false
 
-// let value;
+//  //console.log(true && 4 && 'kiwi');// kiwi
 
-// value += 1;
-// console.log(value);
-// console.log(Number.isNaN(value))
-// console.log(Number.isNaN(str))
-// console.log(num === NaN);
+//  //console.log(true && 0 && 'kiwi');//0
 
+// // console.log(true || 3);// true
 
+// //console.log( 3 ||true || 4);// 3
 
+//  //console.log('' || false || 7);// 7
 
-// Класс Math
-// const value = 11.500
-// console.log(Math.floor(value)); // округляє число до найменшого цілого.
+//  //console.log(null || 2 || undefined);// 2
 
-// console.log(Math.ceil(value));// округляє число до найбільшого цілого.
+//  //console.log('' ??  4);// ''
 
-// Math.round() // округлення
-// console.log(Math.round(value));
+//  //console.log(false ?? 7); //false
 
+//  //console.log(null ?? 7);// 7
 
-// console.log(Math.pow(5, 4));// корінь
-// console.log(5 ** 4);
+//  //console.log(undefined ?? 7);//7
 
 
-/***** Методи та властивості для роботки з рядками (тип даних String) *****/
+// /***** Математичні оператори *****/
 
-// const str = 'Hello world';
-// // length
-// console.log(str.length);
-// // toLowerCase()
-// console.log(str.toLowerCase());
-// // toUpperCase()
-// console.log(str.toUpperCase());
-// indexOf() //
+// // const value = 10
+// // +
+// // const result = value + 15
+// // -
+// // const result = value - 5
+// // *
+// // const result = 10 + value * 5
+// // /
 
-// console.log(str.indexOf(' '));
-// console.log(str.indexOf('H'));
-// console.log(str.includes('world'));
-// const str = 'Hello world';
-// endsWith()
-// console.log(str.endsWith(' world'));
-// startsWith()
-// console.log(str.startsWith('h'));
-// replace()
-// console.log(str.replace('l', '🍕'));
-// console.log(str);
-// // replaceAll()
-// console.log(str.replaceAll('l','🍟'));
-// slice()
+// // %
+// // const result = value % 2 !== 0
+// // const result = !(value % 2) //=>  10 % 2 => !0 
+// // console.log(result);
+// // console.log(Boolean(0)) === console.log(!!0);
 
-// console.log(str.slice(0, str.length-1));
-// console.log(str);
+// // false => HE HE 0
+// /***** Комбіновані оператори *****/
 
+// // +=
 
+// // -=
 
+// // *=
 
+// // /=
 
-// **************************************** Практика ****************************** //
 
-// Task - 1
 
-// Виконавши математичні операції та застосувавши шаблоні рядки виведи в консоль загальну кількість та ціну за кожен продукт та за всі продукти в кошику
+// /***** Методи для роботки з числами (тип даних Number) *****/
 
-const apple = '🍎';
+// // const str = '25.7a32px';
+// // Number.parseInt()
+// // console.log(Number.parseInt(str)); // "разобрати"
+// // Number.parseFloat()// "плавающий"
+// // console.log(Number.parseFloat(str));
+// // Number.isNaN()  та метод isNaN()
+// // const num = Number(str) // NaN
+// // console.log(Number.isNaN(num));
+// // console.log(isNaN(num));
+// // console.log('=====================================');
 
-const appleQuantity = 8;
 
-const applePrice = 34;
 
-// const  appleMessage = `${apple} total cost ${appleQuantity * applePrice}`
-// console.log(appleMessage);
-const lemon = '🍋';
 
-const lemonQuantity = 3;
+// // const str = '25.7a32px';
+// // console.log(typeof str);
+// // console.log(Number.isNaN(str));// NaN //String
+// // console.log(isNaN(str)); //Number(str) => NaN
 
-const lemonPrice = 72;
+// // let value;
 
-// const lemonMessage = lemon + ' total cost ' + (lemonQuantity + lemonPrice)
-// console.log(lemonMessage);
-// const cherry = '🍒';
+// // value += 1;
+// // console.log(value);
+// // console.log(Number.isNaN(value))
+// // console.log(Number.isNaN(str))
+// // console.log(num === NaN);
 
-// const cherryQuantity = 3;
 
-// const cherryPrice = 72;
 
-// const cherryMessage = `${cherry} total cost ${cherryQuantity * cherryPrice}`;
 
-// console.log(cherryMessage);
-// const result = `Total ${(applePrice * appleQuantity) + (lemonQuantity * lemonPrice) + (cherryQuantity * cherryPrice)}`
+// // Класс Math
+// // const value = 11.500
+// // console.log(Math.floor(value)); // округляє число до найменшого цілого.
 
-// console.log(result);
+// // console.log(Math.ceil(value));// округляє число до найбільшого цілого.
 
-// Task - 2
+// // Math.round() // округлення
+// // console.log(Math.round(value));
 
-// Напиши скрипт, який переведе значення totalMinutes (кількість хвилин) в рядок у форматі годин та хвилин HH:MM.
 
-// 70 покаже 01:10
-// 450 покаже 07:30
-// 1441 покаже 24:01
+// // console.log(Math.pow(5, 4));// корінь
+// // console.log(5 ** 4);
 
-// const totalMinutes = 1441;
-// const hours = Math.floor(totalMinutes / 60);
-// const minutes = totalMinutes % 60;
-// const result = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`
-// console.log(result);
 
+// /***** Методи та властивості для роботки з рядками (тип даних String) *****/
 
+// // const str = 'Hello world';
+// // // length
+// // console.log(str.length);
+// // // toLowerCase()
+// // console.log(str.toLowerCase());
+// // // toUpperCase()
+// // console.log(str.toUpperCase());
+// // indexOf() //
 
-// Task - 3
+// // console.log(str.indexOf(' '));
+// // console.log(str.indexOf('H'));
+// // console.log(str.includes('world'));
+// // const str = 'Hello world';
+// // endsWith()
+// // console.log(str.endsWith(' world'));
+// // startsWith()
+// // console.log(str.startsWith('h'));
+// // replace()
+// // console.log(str.replace('l', '🍕'));
+// // console.log(str);
+// // // replaceAll()
+// // console.log(str.replaceAll('l','🍟'));
+// // slice()
 
-// Виконай рефакторинг коду щоб уникнути помилок
+// // console.log(str.slice(0, str.length-1));
+// // console.log(str);
 
-// const name = 'Harry'
-// const message = `Hello my name is ${name}`
+
+
+
+
+// // **************************************** Практика ****************************** //
+
+// // Task - 1
+
+// // Виконавши математичні операції та застосувавши шаблоні рядки виведи в консоль загальну кількість та ціну за кожен продукт та за всі продукти в кошику
+
+// const apple = '🍎';
+
+// const appleQuantity = 8;
+
+// const applePrice = 34;
+
+// // const  appleMessage = `${apple} total cost ${appleQuantity * applePrice}`
+// // console.log(appleMessage);
+
+// const lemon = '🍋';
+
+// const lemonQuantity = 3;
+
+// const lemonPrice = 72;
+
+// // const lemonMessage = lemon + ' total cost ' + (lemonQuantity + lemonPrice)
+// // console.log(lemonMessage);
+// // const cherry = '🍒';
+
+// // const cherryQuantity = 3;
+
+// // const cherryPrice = 72;
+
+// // const cherryMessage = `${cherry} total cost ${cherryQuantity * cherryPrice}`;
+
+// // console.log(cherryMessage);
+// // const result = `Total ${(applePrice * appleQuantity) + (lemonQuantity * lemonPrice) + (cherryQuantity * cherryPrice)}`
+
+// // console.log(result);
+
+// // Task - 2
+
+// // Напиши скрипт, який переведе значення totalMinutes (кількість хвилин) в рядок у форматі годин та хвилин HH:MM.
+
+// // 70 покаже 01:10
+// // 450 покаже 07:30
+// // 1441 покаже 24:01
+
+// // const totalMinutes = 1441;
+// // const hours = Math.floor(totalMinutes / 60);
+// // const minutes = totalMinutes % 60;
+// // const result = `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}`
+// // console.log(result);
+
+
+
+// // Task - 3
+
+// // Виконай рефакторинг коду щоб уникнути помилок
+
+// // const name = 'Harry'
+// // const message = `Hello my name is ${name}`
+// // console.log(message);
+
+// const delivery = 40;
+// const price = 100;
+// const message = `Total purchase, price ${delivery + price}`;
+
 // console.log(message);
 
-const delivery = 40;
-const price = 100;
-const message = `Total purchase, price ${delivery + price}`;
+// // Task - 4
+// // Виконай рефакторинг коду так, щоб у змінну value присвоювалося значення змінної incomingValue, якщо воно не рівне undefined або null. В іншому випадку має присвоюватися значення defaultValue. Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0, false. Використовуй оператор ?? (nullish coalescing operator).
 
-console.log(message);
-
-// Task - 4
-// Виконай рефакторинг коду так, щоб у змінну value присвоювалося значення змінної incomingValue, якщо воно не рівне undefined або null. В іншому випадку має присвоюватися значення defaultValue. Перевір роботу скрипта для наступних значень змінної incomingValue: null, undefined, 0, false. Використовуй оператор ?? (nullish coalescing operator).
-
-// const incomingValue = 0;
-// const defaultValue = 10;
-// const value = null ?? defaultValue;
-// console.log(value);
+// // const incomingValue = 0;
+// // const defaultValue = 10;
+// // const value = null ?? defaultValue;
+// // console.log(value);
 
 
-// const KEY_AUTHORIZATION = 'qwerty111';
-// console.log(KEY_AUTHORIZATION);
+// // const KEY_AUTHORIZATION = 'qwerty111';
+// // console.log(KEY_AUTHORIZATION);
