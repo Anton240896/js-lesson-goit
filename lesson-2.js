@@ -448,7 +448,7 @@
     
     
 
-// задача 26.2 
+// задача 2.26
 
 // Виконай рефакторинг коду функції calculateTotalPrice(order), замінивши цикл for на for...of.
 
@@ -461,8 +461,95 @@
 
 // function calculateTotalPrice(order) {
 // // let total = 0;
-// // for (const item of order) {
+// // for (const item of order) { - через фор оф
 // //     total += order;
 // // }
 // // return total;
 //  }
+
+// function calculateTotalPrice(order) {
+//     let total = 0;
+//     for (let i = 0; i < order.length; i+=1) { - через фор 
+//       total += order[i];
+//     }
+//     return total;
+//   }
+
+
+// Задача 2.27
+
+// Виконай рефакторинг функції filterArray(numbers, value), замінивши цикл for на for...of.
+
+// Оголошена функція filterArray(numbers, value)
+// Виклик функції filterArray([1, 2, 3, 4, 5], 3) повертає [4, 5]
+// Виклик функції filterArray([1, 2, 3, 4, 5], 4) повертає [5]
+// Виклик функції filterArray([1, 2, 3, 4, 5], 5) повертає []
+// Виклик функції filterArray([12, 24, 8, 41, 76], 38) повертає [41, 76]
+// Виклик функції filterArray([12, 24, 8, 41, 76], 20) повертає [24, 41, 76]
+// Виклик функції filterArray() з випадковим масивом і числом повертає правильний масив
+// Функція filterArray() використовує цикл for..of
+
+// function filterArray(numbers, value) {
+//     const filteredArray = [];
+  
+//     for (let number of numbers) {
+//       if (number > value) {
+//         filteredArray.push(number);
+//       }
+//     }
+  
+//     return filteredArray;
+//   }
+
+// задача 2.25
+
+// Спільними елементами масивів називають ті елементи, які присутні у всіх масивах.
+
+// Наприклад, у двох масивах [1, 3, 5] і [0, 8, 5, 3] спільними будуть числа 3 і 5, оскільки вони присутні в обох вихідних масивах. А числа 0, 1 і 8 присутні тільки в одному з масивів.
+
+// Напиши функцію getCommonElements(array1, array2), яка отримує два масиви довільної довжини в параметри array1 і array2, і повертає новий масив, що складається з тих елементів, які присутні в обох вихідних масивах.
+
+// Оголошена функція getCommonElements(array1, array2)
+// Виклик getCommonElements([1, 2, 3], [2, 4]) повертає [2]
+// Виклик getCommonElements([1, 2, 3], [2, 1, 17, 19]) повертає [1, 2]
+// Виклик getCommonElements([24, 12, 27, 3], [12, 8, 3, 36, 27]) повертає [12, 27, 3]
+// Виклик getCommonElements([10, 20, 30, 40], [4, 30, 17, 10, 40]) повертає [10, 30, 40]
+// Виклик getCommonElements([1, 2, 3], [10, 20, 30]) повертає []
+// Виклик функції getCommonElements() з випадковими двома масивами повертає правильний масив
+// В циклі for використовувалися методи includes і push
+
+// function getCommonElements(array1, array2) {
+//     // Створюємо новий масив для зберігання спільних елементів
+//     let getAllElements = [];
+  
+//     for (let element of array1) {
+//       if (array2.includes(element)) {
+//         getAllElements.push(element);
+//       }
+//     }
+  
+//     return getAllElements;
+//   }
+
+// задача 2.22
+// Доповни код функції createArrayOfNumbers(min, max) таким чином, щоб вона повертала масив усіх цілих чисел від значення min до max.
+
+// Оголошена функція createArrayOfNumbers(min, max)
+// Виклик функції createArrayOfNumbers(1, 3) повертає [1, 2, 3]
+// Виклик функції createArrayOfNumbers(14, 17) повертає [14, 15, 16, 17]
+// Виклик функції createArrayOfNumbers(29, 34) повертає [29, 30, 31, 32, 33, 34]
+// Виклик функції createArrayOfNumbers() з випадковими min і max повертає правильний масив
+// В циклі for використовувався метод push
+
+//function createArrayOfNumbers(min, max) {
+//     const numbers = [];
+//     for(let i = min; i <= max; i+=1) {
+//       numbers.push(i);
+//     }
+//     return numbers;
+//   }
+  
+  
+  
+  
+  
