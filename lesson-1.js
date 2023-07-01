@@ -289,11 +289,22 @@
 
 // // console.log(str.slice(0, str.length-1));
 // // console.log(str);
+const foods = [ 'banana', 'apple', 'orange','beaf', 'watermelon', 'apple','fish', 'mutton', 'orange', 'grape', 'apple', ]; 
+const meat = ['beaf','mutton','fish']
+function products (fruits,meat) {
+ 
 
-
-
-
-
+function getFruits(foods, meat) {
+    const fruits = [];
+    for (const food of foods) {
+      if (!meat.includes(food)) {
+        fruits.push(food);
+      }
+    }
+    return fruits;
+  }
+}
+  console.log(fruits);
 // // **************************************** Практика ****************************** //
 
 // // Task - 1
@@ -403,5 +414,4 @@
 //     console.log(author);
 //     console.log(rating);
 //   }
-
 
