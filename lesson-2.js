@@ -462,7 +462,7 @@
 // function calculateTotalPrice(order) {
 // // let total = 0;
 // // for (const item of order) { - через фор оф
-// //     total += order;
+// //     total += item;
 // // }
 // // return total;
 //  }
