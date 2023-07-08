@@ -552,4 +552,8 @@
   
   
   
-  
+  function getFoo(a, b) {
+    return a * b;
+  }
+
+  console.log(getFoo(5, 8));
