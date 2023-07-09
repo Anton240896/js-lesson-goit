@@ -62,3 +62,4 @@
 //     return text === text.split('').reverse().join('');
 // }
 // console.log(palindrom('4340'));
+
