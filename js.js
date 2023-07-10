@@ -11,14 +11,17 @@
 // function findLongestWord(string) {
 //     let words = string.split(' ');
 //         let longestWord = words[0];
+
 //         for (let i = 0; i < words.length; i += 1) {
-//             // Change this line
+
 //             if (words[i].length > longestWord.length) {
 //                 longestWord = words[i];
 //             }
 //         }
 //         return longestWord;
-    
+//     }
+// console.log(findLongestWord(""));
+
 
 // 2)
 // задача 2.26
@@ -63,6 +66,8 @@
 // }
 // console.log(palindrom('4340'));
 
+
+
 // // 4)
 // const fruits = ['apple', 'plum', 'pear', 'orange', 'banana'];
 
@@ -92,14 +97,18 @@
 // Виклик функції calculateTotal(24) повертає 300
 // Виклик функції calculateTotal() з випадковим числом повертає правильне значення
 
-function calculateTotal(number) {
-    let sum = 0;
+// function calculateTotal(number) {
+//     let sum = 0;
   
-    for(let i = 0; i <= number; i+=1){
-      sum += i;
-    }
+//     for(let i = 0; i <= number; i+=1){
+//       sum += i;
+//     }
   
-    return sum;
-  }
+//     return sum;
+//   }
   
-  console.log(calculateTotal(4))
+//   console.log(calculateTotal(4))
+
+
+const array1 = ['one', 'two', 'three', 'five'];
+console.log( array1.reverse());
