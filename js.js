@@ -222,8 +222,8 @@
 //     },
 // ]
 // let s = users.find(user => user.name === 'Ross Vazquez')
-// console.log(s);
-///////////////////////////////////////////////////////////////////////////////
+// console.log(s); // об'єкт Ross Vasques 
+/////////////////////////////////////////////////////////////////////////////
 
 // console.log(users.forEach(person =>));
 
@@ -236,7 +236,7 @@
     
 //       return totalPrice;
 //     }
-//     console.log(calculateTotalPrice(['reed', 'dsdwd']))
+//     console.log(calculateTotalPrice([4, 8])) // 12
 ///////////////////////////////////////////////////////////////////////////////
   
 // const students = [
@@ -272,6 +272,7 @@
 //         email: "elmahead@omatom.com",
 //         eyeColor: "green",
 //         friends: ["Goldie Gentry", "Aisha Tran"],
+//         isActive: true,
 //         isActive: true,
 //         balance: 2278,
 //         gender: "female"
@@ -315,3 +316,20 @@
 
 // const positiveValues = values.filter(value => value >= 0);
 // console.log(positiveValues); // [51, 27, 21, 42]
+
+////////////////////////////////////////////////////////////////////
+// const values = [51, -3, 27, 21, -68, 42, -37];
+
+// const positiveValues = values.map(value => value >= 0);
+// console.log(positiveValues); // [true, false, true, true, false, true, false]
+
+
+////////////////////////////////////////////////////////////////////////////
+// const array1 = ['one', 'two', 'three', 'five'];
+// const array2 = ['six','seven','eight','nine']
+// const releaseDates = [2016, 2008, 1984, 1973, 2012, 1997];
+// array1.forEach(arr => {
+// console.log(arr); // перебрав масив методом форич
+// });
+
+// console.log(releaseDates.sort()); // відсортував масив методом сорт// знизу вверх//[1973, 1984, 1997, 2008, 2012, 2016] 
