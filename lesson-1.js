@@ -415,3 +415,4 @@ function getFruits(foods, meat) {
 //     console.log(rating);
 //   }
 
+const temps = [14, -4, 25, 8, 11];

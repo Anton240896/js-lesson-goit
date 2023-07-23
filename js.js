@@ -1,5 +1,5 @@
 // 1)
-//Задача. 2.21
+// Задача. 2.21
 // Напиши функцію findLongestWord(string), яка приймає довільний рядок, що складається тільки зі слів, розділених пробілом (параметр string), і повертає найдовше слово в цьому рядку.
 
 // Оголошена функція findLongestWord(string)
@@ -20,7 +20,14 @@
 //         }
 //         return longestWord;
 //     }
-// console.log(findLongestWord(""));
+// console.log(findLongestWord("afasvasv afwfwf efwfwfe wfqwfegdf fwfqwff"));
+
+
+// //                         solution2
+// function findLongestWord(str) {
+//       return Math.max(...str.split(" ").map(word => word.length));
+//     }
+//     console.log(findLongestWord("afasvasv afwfwf efwfwfe wfqwfegfwssdgsgsdfsdgdsgdf fwfqwff"));// виводе кількість
 
 
 // 2)
@@ -136,7 +143,20 @@
   
       // },
 //   };
-  
+
+// задача 8 
+// Знайти факторіал будь яких чисел , наприклад 4! = 1*2*3*4 = 24 
+
+// function factorialize(num) {
+//       if (num === 0) {
+//         return 1;
+//       }
+//       return num * factorialize(num - 1);
+//     }
+    
+//     console.log(factorialize());
+
+
 
 
 //   const arr1 =   
@@ -331,5 +351,33 @@
 // array1.forEach(arr => {
 // console.log(arr); // перебрав масив методом форич
 // });
+////////////////////////////////////////////////////////////////////////////
 
 // console.log(releaseDates.sort()); // відсортував масив методом сорт// знизу вверх//[1973, 1984, 1997, 2008, 2012, 2016] 
+// function nam(a,b, c) {
+//       if (a>b) {
+// console.log('go to');
+//       }
+//      else {
+//       console.log('go to to the bleakbeard');
+//       }
+// }
+////////////////////////////////////////////////////////////////////////////
+
+// console.log(nam(8,5));
+// let a = [1,2,3,4,5,6,7,8,8]
+// console.log(a);
+
+////////////////////////////////////////////////////////////////////////////
+
+// function splitify(str) {
+//       // Змініть код лише під цим рядком
+//     const a = str.split(/\W/)  //['Hello', 'World', 'I', 'am', 'code']
+    
+//       // Змініть код лише над цим рядком
+//       return a;
+//     }
+
+
+// console.log(splitify("Hello World,I-am code"));
+////////////////////////////////////////////////////////////////////////////
