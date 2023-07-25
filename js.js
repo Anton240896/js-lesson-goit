@@ -381,3 +381,27 @@
 
 // console.log(splitify("Hello World,I-am code"));
 ////////////////////////////////////////////////////////////////////////////
+
+
+// console.log(document);
+
+// const body = document.body;
+// console.log(body);
+
+// const list = document.body.firstElementChild;
+// console.log(list);
+
+// const firstListItem = list.firstElementChild;
+// console.log(firstListItem);
+
+// const listItems = list.children;
+// console.log(listItems);
+
+const b = document.querySelector('.a')
+const ul = `
+<li>1</li>
+<li>2</li>
+<li>3</li>
+<li>4</li>`;
+b.insertAdjacentElement('beforeend',li
+)
